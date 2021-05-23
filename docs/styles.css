@@ -585,6 +585,44 @@ video {
   }
 }
 
+.gradient-heading {
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  --tw-gradient-from: #f87171;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(248, 113, 113, 0));
+  --tw-gradient-to: #2563eb;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1;
+  color: transparent;
+}
+
+.feature-title {
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
+}
+
+.faq-question-block {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.faq-question {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
+}
+
+.faq-answer {
+  --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));

@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .gradient-heading {
+        @apply text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-br from-red-400 to-blue-600;
+    }
+    .feature-title {
+        @apply text-4xl font-semibold text-gray-700;
+    }
+
+    .faq-question-block {
+        @apply my-6;
+    }
+    .faq-question {
+        @apply text-xl text-gray-700;
+    }
+    .faq-answer {
+        @apply text-gray-500;
+    }
+}
