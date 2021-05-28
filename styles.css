@@ -9,6 +9,9 @@
     .feature-title {
         @apply text-4xl font-semibold text-gray-700;
     }
+    .k-menu-item {
+        @apply font-semibold text-sm;
+    }
 
     .faq-question-block {
         @apply my-6;

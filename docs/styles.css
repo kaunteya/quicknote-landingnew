@@ -606,6 +606,12 @@ video {
   color: rgba(55, 65, 81, var(--tw-text-opacity));
 }
 
+.k-menu-item {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .faq-question-block {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
