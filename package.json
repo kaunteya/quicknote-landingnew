@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "rm -rf .next && next build",
     "start": "next start"
   }
 }

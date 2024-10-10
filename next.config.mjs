@@ -9,7 +9,7 @@ const nextConfig = {
     unoptimized: true // mandatory, otherwise won't export
   },
   distDir: 'docs/help',
-  // basePath: '/help',
+  basePath: '/help',
   // assetPrefix: '/help'
 
 }
