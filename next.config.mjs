@@ -10,7 +10,7 @@ const nextConfig = {
   },
   distDir: 'docs/help',
   basePath: '/help',
-  assetPrefix: '/help'
+  // assetPrefix: '/help'
 
 }
 
