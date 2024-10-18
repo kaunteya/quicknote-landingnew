@@ -8,8 +8,8 @@ const nextConfig = {
   images: {
     unoptimized: true // mandatory, otherwise won't export
   },
-  distDir: 'docs/help',
-  basePath: '/help',
+  distDir: 'docs/docs',
+  basePath: '/docs',
   // assetPrefix: '/help'
 
 }
