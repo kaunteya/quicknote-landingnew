@@ -10,6 +10,12 @@ export const pageMap = [{
   children: [{
     data: basics_meta
   }, {
+    name: "newNote",
+    route: "/basics/newNote",
+    frontMatter: {
+      "sidebarTitle": "Newnote"
+    }
+  }, {
     name: "quitApp",
     route: "/basics/quitApp",
     frontMatter: {
