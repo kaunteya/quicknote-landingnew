@@ -37,9 +37,13 @@ You can add a new Action from the Shortcuts app that will let you create a new n
 You can use the `make new note` command from the Script Editor to create a new note.
 
 ```
-tell application "Quick Note"
-    open (make new note)
-end tell
+tell application "Quick Note" to open (make new note)
+```
+
+## Terminal
+Run the script command from Terminal. You can add this to your shell scripts also.
+```
+osascript -e 'tell application "Quick Note" to open (make new note)'
 ```
 
 ## Services Menu
