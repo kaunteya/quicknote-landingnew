@@ -7,6 +7,9 @@ This page has 2 sections
 - The source code is in `pages/` directory
 - The documentation is generated in `docs/docs/`
 
+## To access the page directly from github
+http://kaunteya.github.io/quicknote-landingnew
+
 ## Files and directories
 `docs` github pages root folder
 `docs/index.html` is a standalone homepage made using bootstrap
